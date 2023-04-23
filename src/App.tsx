@@ -19,6 +19,8 @@ function App() {
           <StarsCanvas />
         </div>
       </div>
+      {/* TO BE REMOVED */}
+      <div className="h-[1000px]"></div>
     </BrowserRouter>
   );
 }
