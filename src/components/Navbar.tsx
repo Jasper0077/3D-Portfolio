@@ -28,9 +28,12 @@ const Navbar = () => {
                     }}
                 >
                     <img src={logo} alt="logo" className="w-9 h-9 object-contain" />
-                    <p className="text-white text-[18px] font-bold cursor-pointer">Jasper
-                        <span className="sm:block hidden">| 3D Portfolio</span>
-                    </p>
+                    <div className="text-white text-[18px] font-bold cursor-pointer flex flex-row items-end">
+                        <p className="text-2xl">3D Portfolio &nbsp;</p>
+                        <span className="sm:block hidden text-xs">
+                            &nbsp; by Jasper
+                        </span>
+                    </div>
                 </Link>
                 <ul className="list-none hidden sm:flex flex-row gap-10">
                     {navLinks.map((link) => {
@@ -68,7 +71,7 @@ const Navbar = () => {
                         <ul 
                             className={cn(
                                 "list-none", 
-                                "flex flex-col justify-start items-start gap-4"
+                                "flex flex-col justify-end items-start gap-4"
                             )}>
                             {navLinks.map((link) => {
                                 return (
