@@ -90,12 +90,12 @@ return {
 };
 };
   
-export const staggerContainer = (staggerChildren: number, delayChildren: number) => {
+export const staggerContainer = (staggerChildren?: number, delayChildren?: number) => {
 return {
     hidden: {},
     show: {
     transition: {
-        staggerChildren: staggerChildren,
+        staggerChildren: staggerChildren || 0,
         delayChildren: delayChildren || 0,
     },
     },
