@@ -1,6 +1,3 @@
-import React from "react";
-import { motion } from "framer-motion";
-
 import { styles } from "../styles";
 import cn from "classnames";
 import ComputerCanvas from "./canvas/Computer";
