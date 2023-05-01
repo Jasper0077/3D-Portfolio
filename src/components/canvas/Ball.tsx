@@ -18,7 +18,7 @@ interface BallCanvasProps {
     icon: string;
 }
 
-const Ball = ({ imgUrl }: BallProps) => {
+export const Ball = ({ imgUrl }: BallProps) => {
   const [decal] = useTexture([imgUrl]);
 
   return (
@@ -45,7 +45,7 @@ const Ball = ({ imgUrl }: BallProps) => {
   );
 };
 
-const BallCanvas = ({ icon }: BallCanvasProps) => {
+export const BallCanvas = ({ icon }: BallCanvasProps) => {
   return (
     <Canvas
       frameloop='demand'
@@ -61,5 +61,3 @@ const BallCanvas = ({ icon }: BallCanvasProps) => {
     </Canvas>
   );
 };
-
-export default BallCanvas;
