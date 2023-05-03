@@ -39,15 +39,15 @@ return {
     opacity: 0,
     },
     show: {
-    x: 0,
-    y: 0,
-    opacity: 1,
-    transition: {
-        type: type,
-        delay: delay,
-        duration: duration,
-        ease: "easeOut",
-    },
+        x: 0,
+        y: 0,
+        opacity: 1,
+        transition: {
+            type: type,
+            delay: delay,
+            duration: duration,
+            ease: "easeOut",
+        },
     },
 };
 };
