@@ -6,7 +6,7 @@ import Tech from "./Tech";
 import Works from "./Works";
 import Contact from "./Contact";
 import Feedbacks from "./Feedbacks";
-import StarsCanvas from "./StarsCanvas";
+import StarsCanvas from "./canvas/Stars"
 
 export {
     About,
