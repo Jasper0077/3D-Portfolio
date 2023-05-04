@@ -27,7 +27,7 @@ const Feedbacks = () => {
             )}>
                 {testimonials.map((testimony, index) => {
                     return (
-                        <FeedbackCard index={index} testimony={testimony} />
+                        <FeedbackCard key={index} index={index} testimony={testimony} />
                     )
                 })}
             </div>
